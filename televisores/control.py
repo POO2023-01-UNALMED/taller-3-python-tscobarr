@@ -9,32 +9,25 @@ class Control:
         return self.tv
     
     def turnOn(self):
-        if self.tv != None:
-            self.tv.turnOn()
+        self.tv.turnOn()
     
     def turnOff(self):
-        if self.tv != None:
-            self.tv.turnOff()
+        self.tv.turnOff()
     
     def canalUp(self):
-        if self.tv != None:
-            self.tv.canalUp()
+        self.tv.canalUp()
     
     def canalDown(self):
-        if self.tv != None:
-            self.tv.canalDown()
+        self.tv.canalDown()
     
     def volumenUp(self):
-        if self.tv != None:
-            self.tv.volumenUp()
+        self.tv.volumenUp()
     
     def volumenDown(self):
-        if self.tv != None:
-            self.tv.volumenDown()
+        self.tv.volumenDown()
     
     def setCanal(self, canal):
-        if self.tv != None:
-            self.tv.setCanal(canal)
+        self.tv.setCanal(canal)
     
     def enlazar(self, tv):
         self.tv = tv
